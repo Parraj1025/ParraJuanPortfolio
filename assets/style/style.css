@@ -1,7 +1,11 @@
 *{
     box-sizing: border-box;
 }
-
+html, body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
 .header{
     background-color: darkslategrey;
     text-align: center;
@@ -21,4 +25,61 @@
     text-decoration: none;
     padding: 3%;
     
+}
+
+.about-me {
+    float: right;
+    padding: 3%;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.about-me img {
+    height: 100px;
+}
+
+.projects{
+    display: flex;
+    float: ri;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 3%;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 3%;
+    color: whitesmoke;
+    background-color: red;
+}
+
+.footer {
+    background-color: darkslategrey;
+   
+}
+
+body {
+    background-color: black;
+}
+
+footer {
+    display: flex;
+
+    background-color: darkslategrey;
+
+}
+
+@media screen and (max-width: 500px) {
+    .nav {
+      flex-direction: column;
+    }
+
+    .aside {
+        background-color: blue;
+    }
 }
