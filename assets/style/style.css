@@ -5,6 +5,8 @@ html, body {
     display: flex;
     height: 100%;
     flex-direction: column;
+
+/* top of the page. presents information on the site */
 }
 .header{
     background-color: darkslategrey;
@@ -12,7 +14,7 @@ html, body {
     color: white;
     padding: 10px;
 }
-
+/* navigation bar with active buttoms */
 .nav{
     background-color: black;
     text-align: center;
@@ -24,7 +26,7 @@ html, body {
     color: white;
     text-decoration: none;
     padding: 3%;
-    
+/*set the size of the picture in about me section of page */
 }
 .about-me img{
     max-width: 100px;
@@ -36,7 +38,7 @@ html, body {
     color: whitesmoke;
 
 }
-
+/* setting size of exhibit picture */
 .projects img{
     max-width: 500px;
 }
@@ -77,6 +79,7 @@ body {
     background-color: black;
 }
 
+/* allows elements to chage as page is resized */
 @media screen and (max-width: 500px) {
     .nav {  
       flex-direction: column;
